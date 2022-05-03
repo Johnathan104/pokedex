@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/pokedex/static/css/main.886e390e.css",
+    "main.js": "/pokedex/static/js/main.d449f028.js",
+    "static/media/PokemonGb-RAeo.ttf": "/pokedex/static/media/PokemonGb-RAeo.6211ee48ea626f34681e.ttf",
+    "index.html": "/pokedex/index.html",
+    "main.886e390e.css.map": "/pokedex/static/css/main.886e390e.css.map",
+    "main.d449f028.js.map": "/pokedex/static/js/main.d449f028.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.886e390e.css",
+    "static/js/main.d449f028.js"
+  ]
+}
