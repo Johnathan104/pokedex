@@ -13,8 +13,8 @@ function App(){
                 <h1 className='header'>PokeDex</h1>
             </Link>
                 <Routes>
-                        <Route exact path='/'  element={<Main/>}/>
-                        <Route path='/:pokemon' element={<Entry/>}/>
+                        <Route exact path='/pokedex'  element={<Main/>}/>
+                        <Route path='pokedex/:pokemon' element={<Entry/>}/>
                 </Routes>
             </div>
         </Router>
