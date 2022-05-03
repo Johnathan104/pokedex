@@ -58,13 +58,38 @@
 
 
 
+.main{
+    height:100%;
+    width:100%;
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    align-content: center;
+}
 
-
-
-
+.search{
+    height:40px;
+    width: 80%;
+    align-self: center;
+    display:flex;
+    flex-direction: row;
+}
+.search-bar{
+    height:100%;
+    width:100%;
+}
+.search-btn{
+    margin-left: 20px;
+    height:100%;
+    width:80px;
+}
+.entry-found{
+    display: flex;
+    flex-direction: inherit;
+}
 .header{
     text-align:center;
-    margin-bottom: 8vh;
+    margin-bottom: 4vh;
 }
 @font-face{
     font-family: pokeFontGB;
@@ -111,11 +136,13 @@
 }
 
 .entry{
+    vertical-align: center;
+    min-height: 50vh;
     outline-style: double;
     padding:4vh;
     outline:1px 1px 1px;
     outline-color:#5c656d;
-    width:80%;
+    width:100%;
     display:flex;
     flex-direction:row;
 }
