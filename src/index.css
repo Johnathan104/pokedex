@@ -149,9 +149,10 @@
 .pokemons{
     text-decoration: none;
     padding:40px;
-    display:grid;
-    column-gap: 30px;
-    row-gap: 30px;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 80vw;
     grid-template-columns: repeat(4,1fr);
     grid-auto-rows: minmax(100px,auto);
     width:80%;
@@ -162,10 +163,12 @@
     align-content: space-around;
 }
 .pokemon{
+    margin: 0.5rem;
     outline:1px gray double;
     padding:10px;
     display: flex;
     flex-direction: column;
+    width:320px;
 }
 .pokemon-entry{
     padding:10px;

@@ -52,15 +52,15 @@ class Main extends React.Component{
         return(
                 <div className='main'>
                     <div className='search'>
-                        <input className='search-bar' type='text' onChange={(event)=>this.searchHandle(event)}/>
+                        <input placeholder='search for the exact pokemon name and then click' className='search-bar' type='text' onChange={(event)=>this.searchHandle(event)}/>
                         {this.state.search.length!==0?
                             <Link to={this.state.search.toLowerCase()}>
                                 <button className='search-btn'>
-                                    search
+                                    Find
                                 </button>
                             </Link>
                             :
-                            <button className='search-btn'>search</button>}
+                            <button className='search-btn'>Find</button>}
                     </div>
                     <div className='pokemons'>
                         {this.state.entries}
